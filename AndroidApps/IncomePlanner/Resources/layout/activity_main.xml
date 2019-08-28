@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Input Values Accordingly"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>    
+
+
+     
+
+    
+
+     <android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+        <EditText
+         android:id="@+id/incomePerHourEditText"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:hint="$ Per Hour"
+         android:inputType="number"
+         android:imeOptions="actionNext"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+     </android.support.design.widget.TextInputLayout> 
+
+
+    <android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <EditText
+         android:id="@+id/workHourEditText"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:hint="Works Hour Per Day"
+         android:inputType="number"
+         android:imeOptions="actionNext"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>   
+     </android.support.design.widget.TextInputLayout>
+    
+     <android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <EditText
+         android:id="@+id/taxRateEditText"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:hint="Tax Rate (%)"
+         android:inputType="number"
+         android:imeOptions="actionNext"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+     </android.support.design.widget.TextInputLayout>
+     
+     <android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+        <EditText
+         android:id="@+id/savingRateEditText"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:hint="Savings Rate (%)"
+         android:inputType="number"
+         android:imeOptions="actionDone"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>   
+     </android.support.design.widget.TextInputLayout>
+     
+    
+     <Button
+         android:id="@+id/calculateButton"
+         android:layout_marginTop="30dp"
+         android:text="Calculate"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="300dp"
+         android:layout_height="50dp"/> 
+</LinearLayout>
