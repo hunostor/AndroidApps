@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- SEction One -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.2"
+        android:layout_height="0dp">
+
+        <RelativeLayout
+            android:background="#e2e2e2"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_centerVertical="true"
+                android:src="@drawable/personal1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"/>
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:text="Ucenna Noodim"
+                android:layout_toRightOf="@+id/profileImage"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/placeTextView"
+                android:layout_toRightOf="@+id/profileImage"
+                android:layout_below="@+id/nameTextView"
+                android:text="New Yersey USA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/phonecall"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/profileImage"
+                android:layout_below="@+id/placeTextView"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+
+                <ImageView
+                    android:tint="@color/colorOrange"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+
+                <ImageView
+                    android:tint="@color/colorOrange"                   
+                    android:layout_marginLeft="5dp"                   
+                    android:src="@drawable/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+
+                <ImageView
+                    android:tint="@color/colorOrange"
+                    android:layout_marginLeft="5dp"                    
+                    android:src="@drawable/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+
+                <ImageView
+                    android:tint="@color/colorOrange"
+                    android:layout_marginLeft="5dp"                   
+                    android:src="@drawable/star"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
