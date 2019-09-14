@@ -3235,13 +3235,16 @@ namespace Quiz_App
 			public const int space = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int tooltip_frame_dark = 2131165310;
+			public const int splash = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int tooltip_frame_light = 2131165311;
+			public const int tooltip_frame_dark = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int wrong = 2131165312;
+			public const int tooltip_frame_light = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int wrong = 2131165313;
 			
 			static Drawable()
 			{
@@ -4903,6 +4906,9 @@ namespace Quiz_App
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
 			
+			// aapt resource value: 0x7F0E01F0
+			public const int mytheme_Splash = 2131624432;
+			
 			// aapt resource value: 0x7F0E00C6
 			public const int Platform_AppCompat = 2131624134;
 			
@@ -5434,8 +5440,8 @@ namespace Quiz_App
 			// aapt resource value: 0x7F0E0163
 			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624291;
 			
-			// aapt resource value: 0x7F0E01F0
-			public const int topic_textView = 2131624432;
+			// aapt resource value: 0x7F0E01F1
+			public const int topic_textView = 2131624433;
 			
 			// aapt resource value: 0x7F0E0177
 			public const int Widget_AppCompat_ActionBar = 2131624311;
