@@ -5,4 +5,9 @@
     <color name="colorAccent">#F58C46</color>
     <color name="textColor">#808080</color>
     <color name="colorAsh">#e2e2e2</color>
+  <color name="AccentDark">#d66017</color>
+  <color name="white">#fff</color>
+  <color name="green">#6DB460</color>
+  <color name="darkgreen">#288218</color>
+  
 </resources>
